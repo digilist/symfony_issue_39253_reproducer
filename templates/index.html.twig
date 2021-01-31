@@ -1,0 +1,11 @@
+{{ form_start(form) }}
+{{ form_rest(form) }}
+
+<p>
+    Add new address via prototype:
+</p>
+{# based on the prototype, but faked without JS here #}
+<div><label class="required">2</label><div id="company_addresses_2"><div><label for="company_addresses_2_city" class="required">City</label><input type="text" id="company_addresses_2_city" name="company[addresses][2][city]" required="required" /></div><div><label for="company_addresses_2_companyName" class="required">Company name</label><input type="text" id="company_addresses_2_companyName" name="company[addresses][2][companyName]" required="required" /></div></div></div>
+
+<input type="submit" />
+{{ form_end(form) }}
